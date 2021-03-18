@@ -1,0 +1,29 @@
+
+
+h1{color:red;
+margin-left: 30px}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #abcfad;
+}
+h2,p{
+    text-align: center;
+}
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+body{
+    background-color: #a12d53;
+}
+.menu{margin-right: 30px}
+
+.menu a{margin-right: 30px}
+a:link{color:red  }
+a:visited{color: red}
+.game {position: relative;}
+.game h3{position:absolute;top:50%;left:50%,;transform: translate(-5%,-50%);opacity:0;}
+.game:hover h3{opacity: 1;}
+.game:hover img{opacity: 0.3;}
